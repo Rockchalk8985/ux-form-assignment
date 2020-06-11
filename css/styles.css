@@ -1,0 +1,19 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: opx;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, 
+input {
+    color: white;
+    background-color: violet;
+} .field {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}

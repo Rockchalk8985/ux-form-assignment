@@ -22,8 +22,73 @@
 </head>
 
 <body>
+    <div class="form-wrapper">
+        <div class="form">
+            <img src="./images/bg-heading-03.jpg" alt="">
+            <form action="">
+                <h1> Registration Info</h1>
+                <!-- Name Field -->
+                <div class="field">
+                    <label for="name"></label>
+                    <input 
+                        type="text"
+                        placeholder="Name"
+                        id="name"
+                        name="name"
+                        required
+                        >
+                </div>
+                <!-- Date Field -->
+                <div class="field">
+                    <label for="field"></label>
+                    <input
+                         type="text"
+                         name="date"
+                         id="date"
+                         required
+                         >
+                </div>
+                <!-- Experience Dropdown -->
+                <select class="select-field" name="select-field">
+                    <option id="experience" value="experience">Experience</option>
+                    <option value="Option-2">Option-2</option>
+                </select>
+                </div>
+                <!-- Date Field -->
+                <div class="field">
+                    <label for="date"></label>
+                    <select name="date" id="date"></select>
+                    <input
+                        type="date"
+                        >
+                        
+                        
+                </div>
+                <!-- Email Field -->
+                <div class="field">
+                <label for="Email"></label>
+                    <input 
+                        type="email" 
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        required
+                >
+                </div>
+                <!-- Phone (optional) Field -->
+                <div>
+                    <label for="phone"></label>
+                    <input 
+                        type="phone"
+                        placeholder="Phone (Optional)">
 
-    <!-- Your html here -->
+                </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -1,2 +1,109 @@
 
-/*  Put your CSS Here */
+/*  <-------------Mobile styles here------------------------------> */
+
+/* Base (styles applied to tag selectors) */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+box-sizing: border-box;
+background-repeat: no-repeat;
+background: linear-gradient(to top, #fbc2eb);
+display: flex ;
+justify-content: center;
+}
+img{
+ width: 100%;   
+}
+form {
+    width: 60%;
+
+}
+
+h1{ 
+    color: white;
+
+
+}
+
+h2 {
+
+
+}
+
+p {
+
+
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid;
+    padding: .5em;
+
+}
+select {
+    background: transparent;
+    color: rgba(131, 127, 127, 0.712);
+
+}
+
+
+/* Layout styles */
+.form {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 1);
+    height: 80%;
+    align-items: center;
+
+}
+
+.formwrapper{
+    padding: 2px;
+    width: 100%;
+    }
+
+.footer {
+    display: flex;
+}
+
+/* block styles (classes)*/
+.formwrapper {
+    display: flex;
+    max-width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+/*  <-------------Desktop styles here (width's bigger than 550px)------------------------------> */
+@media (min-width: 767px) {
+/* base */
+
+/* layout */
+
+/* block */
+
+}
